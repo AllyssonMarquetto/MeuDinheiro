@@ -3,9 +3,32 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{7117FB91-DCA7-4455-BC61-CDB64F39A32C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{73617057-D987-455F-B6F1-C5BE95E8A2F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{BEA617A3-4546-48BA-A20C-4EB9664DA5AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infra", "3 - Infra", "{D796DE7B-FB28-4731-9A44-E636D3E250A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeuDinheiro.Domain", "code\MeuDinheiro.Domain\MeuDinheiro.Domain.csproj", "{8CFE7E5F-0669-47B6-BB05-CD76C1CA20EE}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CFE7E5F-0669-47B6-BB05-CD76C1CA20EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CFE7E5F-0669-47B6-BB05-CD76C1CA20EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CFE7E5F-0669-47B6-BB05-CD76C1CA20EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CFE7E5F-0669-47B6-BB05-CD76C1CA20EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8CFE7E5F-0669-47B6-BB05-CD76C1CA20EE} = {BEA617A3-4546-48BA-A20C-4EB9664DA5AC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C1D96827-2288-4FAB-AF7C-9E4A658B3157}
