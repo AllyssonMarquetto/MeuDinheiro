@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infra", "3 - Infra", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeuDinheiro.Domain", "code\MeuDinheiro.Domain\MeuDinheiro.Domain.csproj", "{8CFE7E5F-0669-47B6-BB05-CD76C1CA20EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeuDinheiro.Application", "code\MeuDinheiro.Application\MeuDinheiro.Application.csproj", "{BA0CF58B-FCA2-43B0-9983-A290184778BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +25,17 @@ Global
 		{8CFE7E5F-0669-47B6-BB05-CD76C1CA20EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CFE7E5F-0669-47B6-BB05-CD76C1CA20EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CFE7E5F-0669-47B6-BB05-CD76C1CA20EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA0CF58B-FCA2-43B0-9983-A290184778BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA0CF58B-FCA2-43B0-9983-A290184778BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA0CF58B-FCA2-43B0-9983-A290184778BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA0CF58B-FCA2-43B0-9983-A290184778BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{8CFE7E5F-0669-47B6-BB05-CD76C1CA20EE} = {BEA617A3-4546-48BA-A20C-4EB9664DA5AC}
+		{BA0CF58B-FCA2-43B0-9983-A290184778BC} = {73617057-D987-455F-B6F1-C5BE95E8A2F0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C1D96827-2288-4FAB-AF7C-9E4A658B3157}

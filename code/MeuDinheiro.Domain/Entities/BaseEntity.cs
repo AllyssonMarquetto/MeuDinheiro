@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MeuDinheiro.Domain.Entities
 {
-    public abstract class BaseEntity
+Despesas.Application    public abstract class BaseEntity
     {
         public Guid Id { get; set; }
     }
